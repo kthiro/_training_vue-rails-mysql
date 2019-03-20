@@ -1,0 +1,5 @@
+/mysql/volumes/*
+!/mysql/volume/.gitkeep
+.dockerignore
+oldDockerfile_rails
+tmp_memo.md
