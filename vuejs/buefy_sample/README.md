@@ -1,4 +1,4 @@
-# sample
+# buefy_sample
 
 ## Project setup
 ```

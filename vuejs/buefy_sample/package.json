@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "buefy_sample",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "buefy": "^0.7.3",
     "vue": "^2.6.6"
   },
   "devDependencies": {

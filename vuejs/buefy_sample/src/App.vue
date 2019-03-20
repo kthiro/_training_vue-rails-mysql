@@ -5,16 +5,19 @@
     <p>{{ msgFromHelloWorld }}</p>
     <hr>
     <button @click="callPrompt">タイトル変更</button>
+    <Collapse />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Collapse from './components/Collapse.vue'
 
 export default {
   name: 'app', 
   components: {
-    HelloWorld
+    HelloWorld, 
+    Collapse, 
   }, 
   data: function() {
     return {
